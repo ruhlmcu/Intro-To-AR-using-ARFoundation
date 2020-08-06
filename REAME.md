@@ -32,14 +32,15 @@ This package provides interfaces for the following subsystems:
 1. Session
 1. Raycasting
 1. Camera
-Plane Detection
-Depth
-Image Tracking
-Face Tracking
-Environment Probes
-Object Tracking
-Occlusion
-Meshes
+1. Plane Detection
+1. Depth
+1. Image Tracking
+1. Face Tracking
+1. Environment Probes
+1. Object Tracking
+1. Occlusion
+1. Meshes
+
 Implementations for these subsystems (called "providers") are found in platform-specific implementations are in the [ARCore](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html) and [ARKit](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity `GameObject`s and `MonoBehavour`s.
 
 

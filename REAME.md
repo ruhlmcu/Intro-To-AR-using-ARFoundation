@@ -29,7 +29,7 @@ ARFoundation depends on a separate package called [ARSubsystems](https://docs.un
 
 This package provides interfaces for the following subsystems:
 
-1. [Session] (https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/session-subsystem.html)
+1. [Session](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/session-subsystem.html)
 1. Raycasting
 1. Camera
 1. Plane Detection

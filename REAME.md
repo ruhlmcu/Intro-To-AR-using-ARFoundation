@@ -49,7 +49,13 @@ The purpose of this lesson is to create the environment we will use to develop a
 1. Android SDK (required for Android app)
 1. Install Visual Studio Code (optional)
 
-There are several topics that could also be covered however these are the necessary steps. I will not be covering version control of code. I use GitHub and GitHub Desktop.
+There are several topics that could also be covered however these are the necessary steps. 
+
+The course does not cover: 
+
+1. Code version control of code. You may want to investigate GitHub and GitHub Desktop.
+1. Magic Leap development.
+1. HoloLens development.
 
 The installation of Visual Studio Code (a development code editor) is included for convenience. Unity3D allows for the editing of C# code and other text through an external editor. I have found that Visual Studio Code integrates very well and has several convenient extensions for C#.
 
@@ -57,15 +63,23 @@ This lesson relies on 3rd party tutorials to support the installation process ra
 
 ### Install Unity
 
-Step one is to install the Unity3D software. It is a fairly straight forward download and install
+Step one is to install the Unity Hub software. 
 
-## Install Xcode
+From Unity: 
 
-## Install Android SDK
+>"The Unity Hub is a management tool that you can use to manage all of your Unity Projects and installations. Use the Hub to manage multiple installations of the Unity Editor along with their associated components, create new Projects, and open existing Projects."
 
-## Install Visual Studio Code
+Install the Unity Hub by:
 
-## Configure Unity3D
+1. [selecting this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and following the instructions on this page   
+
+### Install Xcode
+
+### Install Android SDK
+
+### Install Visual Studio Code
+
+### Configure Unity3D
 
 # ARFoundation
 

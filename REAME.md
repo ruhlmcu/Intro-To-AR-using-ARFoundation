@@ -7,7 +7,7 @@ This course is built around the way that I learn. A combination of understanding
 
 I also don't assume you know Unity3D or C#. I won't try to make you an expert (I'm certainly not) but I will give you enough background to keep you moving and hopefully learning.
 
-## A word about versions.
+### A word about versions.
 One of my fundamental frustrations with the various tutorials and demos that appear in GitHub and on Youtube is that they become outdated quickly.
 
 As a result there are two challenges to learning. 
@@ -24,32 +24,23 @@ In order to make the course more resilient I will try to explain `what` we are d
 
 ### Unity and Unity package versions
 
-The current LTS version of Unity that this course is based on is ```2019.4.6f1``` . The change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.6
+The current LTS version of Unity that this course is based on is ```2019.4.6f1```. The change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.6
 
 Examples use [*AR Foundation 4.1*](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html).
 
-This set of examples also rely on five Unity packages:
-* ARSubsystems ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/index.html))
-* ARCore XR Plugin ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html))
-* ARKit XR Plugin ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html))
-* ARKit Face Tracking ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arkit-face-tracking@4.1/manual/index.html))
-* ARFoundation ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html))
-                                                                                |
+### Other software versions
+Xcode 
+Android SDK
+Visual Studio Code 
+
 
 If you have begun reading this course it is likely that you already know a little about Unity, C#, Unity ARFoundation, and Augmented Reality. But just to be sure we start on the same page our first lesson will be about the components we will use to create and evolve our app.
 
 # Lesson #1 - Build the development environment.
 
-## Purpose
+### Purpose
 
 The purpose of this lesson is to create the environment we will use to develop and test our cross platform demo app.
-
-1. Install Unity3D
-1. Install Xcode (required for IOS app)
-1. Android SDK (required for Android app)
-1. Install Visual Studio Code (optional)
-
-There are several topics that could also be covered however these are the necessary steps. 
 
 The course does not cover: 
 
@@ -61,23 +52,43 @@ The installation of Visual Studio Code (a development code editor) is included f
 
 This lesson relies on 3rd party tutorials to support the installation process rather than repeat the instructions here. This will not be a common practice in this course, however, there are excellent installation tutorials already available from the software companies
 
-### Install Unity
+### Install Unity Hub and Unity Editor
 
-Step one is to install the Unity Hub software. 
+Step one is to install the Unity Hub and Unity Editor software.
 
-From Unity: 
+#### What: 
 
->"The Unity Hub is a management tool that you can use to manage all of your Unity Projects and installations. Use the Hub to manage multiple installations of the Unity Editor along with their associated components, create new Projects, and open existing Projects."
+>The Unity Hub and Unity Editor are software components supplied by Unity Technologies. 
 
-Install the Unity Hub by:
+>The Unity Hub is a management tool for managing Unity Projects and installations. The Hub can manage multiple installations of the Unity Editor along with their associated components, create new Projects, and open existing Projects.
 
-1. [selecting this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and following the instructions on this page   
+>The Unity Editor is an Interactive Development Environment (IDE) giving users the ability to create games and experiences in both 2D and 3D. In addition it provides access to Unity's scripting API using C#.
+
+#### Why
+
+
+
+Notes:
+
+- You will need a Unity Account to complete this task. There is a link in the instructions
+- 
+
+[Select this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and follow the instructions on the Unity Manual page for installing the Unity Hub and the Unity Editor.   
+
+
+
 
 ### Install Xcode
 
+1. [Select this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and follow the instructions on the Unity Manual page for installing the Unity Hub. 
+
 ### Install Android SDK
 
+1. [Select this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and follow the instructions on the Unity Manual page for installing the Unity Hub. 
+
 ### Install Visual Studio Code
+
+1. [Select this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and follow the instructions on the Unity Manual page for installing the Unity Hub. 
 
 ### Configure Unity3D
 

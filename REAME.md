@@ -42,24 +42,3 @@ This package provides interfaces for the following subsystems:
 1. Meshes
 
 Implementations for these subsystems are found in platform-specific implementations  [ARCore - for Android devices](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html) and [ARKit - for IOS devices](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity [`GameObject`s](https://docs.unity3d.com/Manual/class-GameObject.html) and [`MonoBehavour`s](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html).
-
-
-
-
-
-
-
-
-## Why is ARKit Face Tracking a separate package?
-
-For privacy reasons, use of ARKit's face tracking feature requires additional validation in order to publish your app on the App Store. If your application binary contains certain face tracking related symbols, your app may fail validation. For this reason, we provide this feature as a separate package which must be explicitly included.
-
-## Instructions for installing AR Foundation
-
-1. Download the latest version of Unity 2019.3 or later.
-
-2. Open Unity, and load the project at the root of the *arfoundation-samples* repository.
-
-3. Open your choice of sample scene.
-
-4. See the [AR Foundation Documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) for usage instructions and more information.

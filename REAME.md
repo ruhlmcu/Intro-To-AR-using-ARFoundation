@@ -11,7 +11,7 @@ As a result it is important that you match the version of Unity and AR Foundatio
 
 # Unity and Unity package versions
 
-The current LTS version of Unity that this course is based on is 2019.4.6f1 the change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.6
+The current LTS version of Unity that this course is based on is ```2019.4.6f1``` the change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.6
 
 Examples use [*AR Foundation 4.1*](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html).
 

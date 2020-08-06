@@ -5,38 +5,27 @@ One of my fundamental frustrations with the various tutorials and demos that app
 
 * Two, I end up learning how to do things the wrong way and spend a lot of time researching the right way.
 
-This course is likely to suffer from the same issue of quick obsolesense as all of these other courses. As a result it is important that you match the version of Unity and AR Foundation that is used here in order to get working results. Unfortunatly that only solves problem none. Problem number two requires that I keep the instructions and examples current with Unity. That will be more difficult and there will always be a lag between new releases and updated material. In order to make the course more resiliant I will try to explain what we are doing and why we are doing it so that if the how changes it will be easier for you to make the necessary adjustments. 
+This course is likely to suffer from the same issue of quick obsolesense as all of these other courses. To their credit Unity is making frequent changes to the AR Foundation framwork and the associated AR packages. Sometimes these changes completely change "how" a feature of the sofware is used.  
 
-# AR Foundation Samples
+As a result it is important that you match the version of Unity and AR Foundation that is used here in order to get working results. Unfortunatly, that only solves problem number one. Problem number two requires that I keep the instructions and examples current with Unity. That will be more difficult and there will always be a lag between new releases and updated material. In order to make the course more resiliant I will try to explain what we are doing and why we are doing it so that if the how changes it will be easier for you to make the necessary adjustments. 
 
-Example projects that use [*AR Foundation 4.1*](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) and demonstrate its functionality with sample assets and components.
+# Unity and Unity package versions
 
-This set of samples relies on five Unity packages:
+The current LTS version of Unity that this course is based on is 2019.4.6f1 the change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.6
 
+Examples use [*AR Foundation 4.1*](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html).
+
+This set of examples also rely on five Unity packages:
 * ARSubsystems ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/index.html))
 * ARCore XR Plugin ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html))
 * ARKit XR Plugin ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html))
 * ARKit Face Tracking ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arkit-face-tracking@4.1/manual/index.html))
 * ARFoundation ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html))
-
-## What version should I use?
-
-A Unity package is either "Preview" or "Verified". The latest version of ARFoundation is usually marked as preview and may include experimental or unstable features. A "verified" package is developed targeting a specific version of Unity (though it may work with earlier version as well). All packages verified for the same version of Unity are known to work well together.
-
-In ARFoundation, this means:
-
-| Unity Version | ARFoundation Version |
-| ------------- | -------------------- |
-|    2018.4     | [1.5 (preview)](https://github.com/Unity-Technologies/arfoundation-samples/tree/1.5-preview)  |
-|    2019.3     | [2.1 (verified)](https://github.com/Unity-Technologies/arfoundation-samples/tree/2.1)         |
-|    2020.1     | 3.0 (verified)                                                                                |
-|    2020.2     | 4.1 (preview)                                                                                 |
+                                                                                |
 
 ## ARSubsystems
 
 ARFoundation is built on "[subsystems](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/Subsystem.html)" and depends on a separate package called [ARSubsystems](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/index.html). ARSubsystems defines an interface, and the platform-specific implementations are in the [ARCore](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html) and [ARKit](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity `GameObject`s and `MonoBehavour`s.
-
-The `master` branch is compatible with Unity 2019.3 and later. For 2018.4, see the [1.5-preview branch](https://github.com/Unity-Technologies/arfoundation-samples/tree/1.5-preview).
 
 ## Why is ARKit Face Tracking a separate package?
 

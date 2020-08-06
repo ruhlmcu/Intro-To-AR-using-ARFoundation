@@ -25,7 +25,29 @@ This set of examples also rely on five Unity packages:
 
 ## ARSubsystems
 
-ARFoundation is built on "[subsystems](https://docs.unity3d.com/2019.3/Documentation/ScriptReference/Subsystem.html)" and depends on a separate package called [ARSubsystems](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/index.html). ARSubsystems defines an interface, and the platform-specific implementations are in the [ARCore](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html) and [ARKit](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity `GameObject`s and `MonoBehavour`s.
+ARFoundation depends on a separate package called [ARSubsystems](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/index.html). ARSubsystems defines a platform-agnostic interface for surfacing different types of AR functionality and data. The AR-related subsystems are defined in this package and use the namespace UnityEngine.XR.ARSubsystems. 
+
+This package provides interfaces for the following subsystems:
+
+1. Session
+1. Raycasting
+1. Camera
+Plane Detection
+Depth
+Image Tracking
+Face Tracking
+Environment Probes
+Object Tracking
+Occlusion
+Meshes
+Implementations for these subsystems (called "providers") are found in platform-specific implementations are in the [ARCore](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html) and [ARKit](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity `GameObject`s and `MonoBehavour`s.
+
+
+
+
+
+
+
 
 ## Why is ARKit Face Tracking a separate package?
 

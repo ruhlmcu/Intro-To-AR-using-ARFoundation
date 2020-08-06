@@ -41,7 +41,7 @@ This package provides interfaces for the following subsystems:
 1. Occlusion
 1. Meshes
 
-Implementations for these subsystems (called "providers") are found in platform-specific implementations are in the [ARCore](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html) and [ARKit](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity `GameObject`s and `MonoBehavour`s.
+Implementations for these subsystems (called "providers") are found in platform-specific implementations are in the [ARCore](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html) and [ARKit](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity [`GameObject`s](https://docs.unity3d.com/Manual/class-GameObject.html) and [`MonoBehavour`s](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html).
 
 
 

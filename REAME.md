@@ -11,7 +11,7 @@ As a result it is important that you match the version of Unity and AR Foundatio
 
 # Unity and Unity package versions
 
-The current LTS version of Unity that this course is based on is ```2019.4.6f1``` the change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.6
+The current LTS version of Unity that this course is based on is ```2019.4.6f1``` . The change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.6
 
 Examples use [*AR Foundation 4.1*](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html).
 
@@ -23,6 +23,8 @@ This set of examples also rely on five Unity packages:
 * ARFoundation ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html))
                                                                                 |
 
+If you have begun reading this course it is likely that you already know a little about Unity, Unity ARFoundation, and Augmented Reality. But just to be sure we start on the same page 
+
 ## ARSubsystems
 
 ARFoundation depends on a separate package called [ARSubsystems](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/index.html). ARSubsystems defines a platform-agnostic interface for surfacing different types of AR functionality and data. The AR-related subsystems are defined in this package and use the namespace UnityEngine.XR.ARSubsystems. 
@@ -30,15 +32,15 @@ ARFoundation depends on a separate package called [ARSubsystems](https://docs.un
 This package provides interfaces for the following subsystems:
 
 1. [Session](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/session-subsystem.html)
-1. Raycasting
-1. Camera
-1. Plane Detection
-1. Depth
-1. Image Tracking
-1. Face Tracking
-1. Environment Probes
-1. Object Tracking
-1. Occlusion
-1. Meshes
+1. [Raycasting]()
+1. [Camera]()
+1. [Plane Detection]()
+1. [Depth]()
+1. [Image Tracking]()
+1. [Face Tracking]()
+1. [Environment Probes]()
+1. [Object Tracking]()
+1. [Occlusion]()
+1. [Meshes]()
 
 Implementations for these subsystems are found in platform-specific implementations  [ARCore - for Android devices](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html) and [ARKit - for IOS devices](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html) packages. ARFoundation turns the AR data provided by ARSubsystems into Unity [`GameObject`s](https://docs.unity3d.com/Manual/class-GameObject.html) and [`MonoBehavour`s](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html).

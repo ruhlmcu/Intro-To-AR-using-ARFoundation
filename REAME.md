@@ -1,5 +1,5 @@
 # Introduction
-This is a course to introduce a novice developer into the key concepts and needed to create a mobile AR application using Unity's ARFoundation framework. 
+This is a course to introduce a novice developer into the key concepts needed to create a mobile AR application using Unity's ARFoundation framework. 
 
 I specifically chose ARFoundation for two reasons. Unity is a widely used package for the creation of [VR](https://en.wikipedia.org/wiki/Virtual_reality) applications and ARFoundation allows you to build applications for IOS and Android devices.
 
@@ -18,7 +18,7 @@ As a result there are two challenges to learning.
 
 This course is likely to suffer from the same issue of becoming quickly obsolete as all of these other courses. To their credit Unity is making frequent changes to the AR Foundation framework and the associated AR packages. Sometimes these changes completely change "how" a feature of the software is used. https://en.wikipedia.org/wiki/Virtual_reality 
 
-As a result it is important that you match the version of Unity and AR Foundation that is used here in order to get working results. Unfortunately, that only solves problem number one. Problem number two requires that I keep the instructions and examples current with Unity. That will be more difficult and there will always be a lag between new releases and updated material. 
+As a result it is important that you match the version of Unity and ARFoundation that is used here in order to get working results. Unfortunately, that only solves problem number one. Problem number two requires that I keep the instructions and examples current with Unity. That will be more difficult and there will always be a lag between new releases and updated material. 
 
 In order to make the course more resilient I will try to explain `what` we are doing and `why` we are doing it so that if the `"how"` changes it will be easier for you to make the necessary adjustments. 
 
@@ -51,10 +51,11 @@ The course does not cover:
 The installation of Visual Studio Code (a development code editor) is included for convenience. Unity3D allows for the editing of C# code and other text through an external editor. I have found that Visual Studio Code integrates very well and has several convenient extensions for C#.
 
 This lesson relies on 3rd party tutorials to support the installation process rather than repeat the instructions here. This will not be a common practice in this course, however, there are excellent installation tutorials already available from the software companies
-
 ### Install Unity Hub and Unity Editor
-
 Step one is to install the Unity Hub and Unity Editor software.
+#### Why
+
+As stated above Unity 
 
 #### What: 
 
@@ -63,10 +64,6 @@ Step one is to install the Unity Hub and Unity Editor software.
 >The Unity Hub is a management tool for managing Unity Projects and installations. The Hub can manage multiple installations of the Unity Editor along with their associated components, create new Projects, and open existing Projects.
 
 >The Unity Editor is an Interactive Development Environment (IDE) giving users the ability to create games and experiences in both 2D and 3D. In addition it provides access to Unity's scripting API using C#.
-
-#### Why
-
-
 
 Notes:
 

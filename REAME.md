@@ -7,6 +7,14 @@ This course is built around the way that I learn. A combination of understanding
 
 I also don't assume you know Unity3D or C#. I won't try to make you an expert (I'm certainly not) but I will give you enough background to keep you moving and hopefully learning.
 
+The course does not cover: 
+
+1. Code version control of code. You may want to investigate GitHub and GitHub Desktop.
+1. Magic Leap development.
+1. HoloLens development.
+
+The installation of Visual Studio Code (a development code editor) is included for convenience. Unity3D allows for the editing of C# code and other text through an external editor. I have found that Visual Studio Code integrates very well and has several convenient extensions for C#.
+
 ### A word about versions.
 One of my fundamental frustrations with the various tutorials and demos that appear in GitHub and on Youtube is that they become outdated quickly.
 
@@ -24,7 +32,7 @@ In order to make the course more resilient I will try to explain `what` we are d
 
 ### Unity and Unity package versions
 
-The current LTS version of Unity that this course is based on is ```2019.4.6f1```. The change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.6
+The current LTS version of Unity that this course is based on is ```2019.4.7f1```. The change log for that version can be read here https://unity3d.com/unity/whats-new/2019.4.7
 
 Examples use [*AR Foundation 4.1*](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html).
 
@@ -32,7 +40,6 @@ Examples use [*AR Foundation 4.1*](https://docs.unity3d.com/Packages/com.unity.x
 Xcode 
 Android SDK
 Visual Studio Code 
-
 
 If you have begun reading this course it is likely that you already know a little about Unity, C#, Unity ARFoundation, and Augmented Reality. But just to be sure we start on the same page our first lesson will be about the components we will use to create and evolve our app.
 
@@ -42,13 +49,7 @@ If you have begun reading this course it is likely that you already know a littl
 
 The purpose of this lesson is to create the environment we will use to develop and test our cross platform demo app.
 
-The course does not cover: 
 
-1. Code version control of code. You may want to investigate GitHub and GitHub Desktop.
-1. Magic Leap development.
-1. HoloLens development.
-
-The installation of Visual Studio Code (a development code editor) is included for convenience. Unity3D allows for the editing of C# code and other text through an external editor. I have found that Visual Studio Code integrates very well and has several convenient extensions for C#.
 
 This lesson relies on 3rd party tutorials to support the installation process rather than repeat the instructions here. This will not be a common practice in this course, however, there are excellent installation tutorials already available from the software companies
 ### Install Unity Hub and Unity Editor
@@ -68,16 +69,14 @@ As stated above Unity
 Notes:
 
 - You will need a Unity Account to complete this task. There is a link in the instructions
-- 
+- When loading the editor select version 2019.4.7f1
 
 [Select this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and follow the instructions on the Unity Manual page for installing the Unity Hub and the Unity Editor.   
 
 
-
-
 ### Install Xcode
 
-1. [Select this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and follow the instructions on the Unity Manual page for installing the Unity Hub. 
+1. [Select this link](https://developer.apple.com/download/release/) and follow the instructions on the Unity Manual page for installing the Unity Hub. 
 
 ### Install Android SDK
 
@@ -87,7 +86,7 @@ Notes:
 
 1. [Select this link](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) and follow the instructions on the Unity Manual page for installing the Unity Hub. 
 
-### Configure Unity3D
+# Lesson #2 Configure Unity Editor for AR Development
 
 # ARFoundation
 
